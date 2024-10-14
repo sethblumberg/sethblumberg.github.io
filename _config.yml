@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Seth Blumberg"
 title_separator          : "-"
 name                     : &name "Seth Blumberg"
 description              : &description "It's a webpage"
