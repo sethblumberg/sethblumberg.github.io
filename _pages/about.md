@@ -13,6 +13,8 @@ I'm a behavioral economist.  I'm interested in lots of things.
 At work, I lead Google's internal prediction market.
 You can learn more about it in this [Google Cloud blog post](https://cloud.google.com/blog/topics/solutions-how-tos/design-patterns-in-googles-prediction-market-on-google-cloud) (and related [ACX blog post](https://www.astralcodexten.com/p/mantic-monday-let-me-google-that)) and this [talk at Metaculus](https://www.youtube.com/watch?v=uTCnxUBxw-E).
 
+Here my [my resume](https://sethblumberg.com/resume/Seth%20Blumberg%20-%20resume.pdf).
+
 # Research
 
 
