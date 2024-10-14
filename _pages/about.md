@@ -11,7 +11,7 @@ I'm a behavioral economist.  I'm interested in lots of things.
 
 # Work
 At work, I lead Google's internal prediction market.
-You can learn more about it [here](https://www.astralcodexten.com/p/mantic-monday-let-me-google-that)) and [here](https://www.youtube.com/watch?v=uTCnxUBxw-E).
+You can learn more about it [here](https://www.astralcodexten.com/p/mantic-monday-let-me-google-that) and [here](https://www.youtube.com/watch?v=uTCnxUBxw-E).
 
 Here my [my resume](https://sethblumberg.com/resume/Seth%20Blumberg%20-%20resume.pdf).
 
