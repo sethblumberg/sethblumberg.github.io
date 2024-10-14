@@ -1,14 +1,12 @@
 ---
 permalink: /
-title: "Seth Blumberg"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
-hide_title: true
 ---
 
-# About me
 I'm a behavioral economist.  I'm interested in lots of things.
 
 # Work
