@@ -23,7 +23,7 @@ You can learn more about it in this [Google Cloud blog post](https://cloud.googl
 ## Economics
 [Payment Between Friends: Compensation and Signaling in an Altruistic Partnership](http://sethblumberg.com/papers/Seth%20Blumberg%20-%20Payment%20between%20Friends.pdf) ([slides](http://sethblumberg.com/slides/Seth%20Blumberg%20-%20Payment%20between%20Friends%2C%20Public%20Lecture%2020191030.pdf)), 2019.  *PhD Thesis*.
 
-[Dynamic Loss Aversion, Growth, and Development](https://sethblumberg.com/papers/Blumberg%20%2B%20Kremer%202014%20-%20Dynamic%20Loss%20Aversion%2C%20Growth%2C%20and%20Development.pdf) ([slides](http://sethblumberg.com/slides/Blumberg%20%2B%20Kremer%20-%20NEUDC%2020141101%20-%20Dynamic%20Loss%20Aversion%2C%20Growth%2C%20and%20Development%20%28handout%29.pdf), 2014. Joint with Michael Kremer )
+[Dynamic Loss Aversion, Growth, and Development](https://sethblumberg.com/papers/Blumberg%20%2B%20Kremer%202014%20-%20Dynamic%20Loss%20Aversion%2C%20Growth%2C%20and%20Development.pdf) ([slides](http://sethblumberg.com/slides/Blumberg%20%2B%20Kremer%20-%20NEUDC%2020141101%20-%20Dynamic%20Loss%20Aversion%2C%20Growth%2C%20and%20Development%20%28handout%29.pdf)), 2014. Joint with Michael Kremer 
 
 [Incomplete Information and Inefficient Matching](http://sethblumberg.com/papers/Seth%20Blumberg%20-%20Incomplete%20Information%20and%20Inefficient%20Matching.pdf) ([slides](http://sethblumberg.com/slides/Seth%20Blumberg%20-%20MDRG%2020140515%20-%20Incomplete%20Information%20and%20Inefficient%20Matching.pdf)), 2014.
 
