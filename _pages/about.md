@@ -30,10 +30,10 @@ Here my [my resume](https://sethblumberg.com/resume/Seth%20Blumberg%20-%20resume
 
 [Goal-Setting and (Excessive) Optimism](https://sethblumberg.com/papers/Seth%20Blumberg%20-%20Goal-Setting%20and%20(Excessive)%20Optimism.pdf), 2013.
 
-[Understanding Investment Choices in Informal Markets: The Economic Lives of Street Vendors in Accra, Ghana](https://sethblumberg.com/SethBlumberg-Thesis1.pdf), 2008. *Undergratuate Thesis*
+[Understanding Investment Choices in Informal Markets: The Economic Lives of Street Vendors in Accra, Ghana](https://sethblumberg.com/SethBlumberg-Thesis1.pdf), 2008. *Undergratuate Thesis*.
 
 ### Math
-[Lattice Symmetries of Indefinite Ternary Quadratic Forms](https://sethblumberg.com/SethBlumberg-Thesis2.pdf), 2008. *Undergraduate Thesis*
+[Lattice Symmetries of Indefinite Ternary Quadratic Forms](https://sethblumberg.com/SethBlumberg-Thesis2.pdf), 2008. *Undergraduate Thesis*.
 
 
 
