@@ -38,4 +38,6 @@ Here is [my resume](https://sethblumberg.com/resume/Seth%20Blumberg%20-%20resume
 
 
 # Talks
+[Making Forecasting Useful](https://www.youtube.com/watch?v=LbfP3oxwr_I) (at [ICML 2026 forecasting workshop](https://forecasting-workshop.github.io/)) ([slides](http://sethblumberg.com/icml-2026-slides)), 2026.
+
 [Talk for OPTIC](https://www.youtube.com/watch?v=pYYuMLQjpWY) (undergraduate forecasting tournament), 2023.
