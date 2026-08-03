@@ -251,6 +251,15 @@ $dark-code-background-color : #151c23;
     border-color: $dark-surface-color transparent;
   }
 
+  /* The wide author link list is part of the page, not a dropdown card. */
+  @include breakpoint($large) {
+    .author__urls {
+      background: transparent;
+      border: 0;
+      box-shadow: none;
+    }
+  }
+
   .greedy-nav .hidden-links li,
   .toc__menu a {
     border-color: $dark-border-color;
@@ -273,6 +282,13 @@ $dark-code-background-color : #151c23;
   .pagination li a,
   .pagination--pager {
     border-color: $dark-border-color;
+  }
+
+  /* GitHub's near-black brand icon needs a light treatment on dark pages. */
+  .social-icons .fa-github,
+  .social-icons .fa-github-alt,
+  .social-icons .fa-github-square {
+    color: $dark-text-color;
   }
 
   table {

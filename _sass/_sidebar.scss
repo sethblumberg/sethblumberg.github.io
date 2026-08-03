@@ -170,10 +170,12 @@
   }
 
   @include breakpoint($large) {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
-  button {
+  .author__urls-toggle {
     margin-bottom: 0;
 
     @include breakpoint($large) {
@@ -197,6 +199,7 @@
   cursor: default;
 
   @include breakpoint($large) {
+    order: 1;
     display: block;
     position: relative;
     margin: 0;
@@ -257,5 +260,16 @@
     &:hover {
       text-decoration: underline;
     }
+  }
+}
+
+.author__profile-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+
+  @include breakpoint($large) {
+    order: 2;
+    margin-top: 0.4em;
   }
 }

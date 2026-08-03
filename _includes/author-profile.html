@@ -21,7 +21,32 @@
   </div>
 
   <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
+    <div class="author__profile-actions">
+      <button class="btn btn--inverse author__urls-toggle" type="button" aria-expanded="false">Follow</button>
+      <div class="theme-picker">
+        <button class="theme-picker__toggle" type="button" aria-label="Appearance: Automatic" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-fw fa-sun theme-picker__icon theme-picker__icon--light" aria-hidden="true"></i>
+          <i class="fas fa-fw fa-moon theme-picker__icon theme-picker__icon--dark" aria-hidden="true"></i>
+        </button>
+        <div class="theme-picker__menu" role="radiogroup" aria-label="Choose appearance">
+          <button class="theme-picker__option" type="button" role="radio" aria-checked="true" data-theme-value="auto">
+            <i class="fas fa-fw fa-desktop" aria-hidden="true"></i>
+            <span>Automatic</span>
+            <i class="fas fa-fw fa-check theme-picker__check" aria-hidden="true"></i>
+          </button>
+          <button class="theme-picker__option" type="button" role="radio" aria-checked="false" data-theme-value="light">
+            <i class="fas fa-fw fa-sun" aria-hidden="true"></i>
+            <span>Light</span>
+            <i class="fas fa-fw fa-check theme-picker__check" aria-hidden="true"></i>
+          </button>
+          <button class="theme-picker__option" type="button" role="radio" aria-checked="false" data-theme-value="dark">
+            <i class="fas fa-fw fa-moon" aria-hidden="true"></i>
+            <span>Dark</span>
+            <i class="fas fa-fw fa-check theme-picker__check" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </div>
     <ul class="author__urls social-icons">
       <!-- Font Awesome icons / Biographic information  -->
       {% if author.location %}
