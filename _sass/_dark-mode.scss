@@ -1,0 +1,415 @@
+/* ==========================================================================
+   DARK MODE
+   ========================================================================== */
+
+/*
+   Automatic by default. The attribute selectors are intentionally included
+   now so a future Light / Dark / Automatic control only needs to set or remove
+   data-theme on <html>; the palette and component rules will not need rewriting.
+*/
+
+$dark-background-color      : #10151b;
+$dark-surface-color         : #171e26;
+$dark-surface-raised-color  : #1d2630;
+$dark-text-color            : #e7edf3;
+$dark-muted-text-color      : #a9b4bf;
+$dark-link-color            : #67c9e8;
+$dark-link-hover-color      : #9bdff3;
+$dark-link-visited-color    : #b6a7e8;
+$dark-border-color          : #2d3945;
+$dark-focus-color           : #93ddf4;
+$dark-code-background-color : #151c23;
+
+@mixin dark-theme {
+  color-scheme: dark;
+  background-color: $dark-background-color;
+
+  body {
+    color: $dark-text-color;
+    background-color: $dark-background-color;
+  }
+
+  a {
+    color: $dark-link-color;
+
+    &:visited {
+      color: $dark-link-visited-color;
+    }
+
+    &:hover,
+    &:active {
+      color: $dark-link-hover-color;
+    }
+  }
+
+  a:focus,
+  button:focus,
+  input:focus,
+  select:focus,
+  textarea:focus {
+    outline: 2px solid $dark-focus-color;
+    outline-offset: 2px;
+  }
+
+  ::-moz-selection {
+    color: $dark-background-color;
+    background: $dark-focus-color;
+  }
+
+  ::selection {
+    color: $dark-background-color;
+    background: $dark-focus-color;
+  }
+
+  u,
+  ins,
+  abbr[title],
+  abbr[data-original-title] {
+    border-color: $dark-muted-text-color;
+  }
+
+  hr,
+  .page__content h2,
+  .page__content + .pagination,
+  .page__meta + .pagination,
+  .page__share + .pagination,
+  .page__comments + .pagination,
+  .page__share,
+  .page__comments-title,
+  .comment:not(:last-child),
+  .page__related,
+  .feature__wrapper,
+  .archive__subtitle,
+  .nav__sub-title {
+    border-color: $dark-border-color;
+  }
+
+  figcaption,
+  .page__meta,
+  .archive__subtitle,
+  .pagination--pager,
+  .pagination li a {
+    color: $dark-muted-text-color;
+  }
+
+  figcaption a {
+    border-bottom-color: $dark-border-color;
+
+    &:hover {
+      color: $dark-text-color;
+      border-bottom-color: $dark-text-color;
+    }
+  }
+
+  p > code,
+  a > code,
+  li > code,
+  figcaption > code,
+  td > code,
+  div.highlighter-rouge,
+  figure.highlight {
+    color: $dark-text-color;
+    background: $dark-code-background-color;
+    border-color: $dark-border-color;
+    box-shadow: none;
+  }
+
+  div.highlighter-rouge:before,
+  figure.highlight:before {
+    color: $dark-muted-text-color;
+    background-color: $dark-surface-raised-color;
+  }
+
+  .highlight,
+  .highlight .err,
+  .highlight .g,
+  .highlight .l,
+  .highlight .n,
+  .highlight .p,
+  .highlight .ge,
+  .highlight .go,
+  .highlight .gp,
+  .highlight .gs,
+  .highlight .gt,
+  .highlight .ld,
+  .highlight .na,
+  .highlight .nl,
+  .highlight .nn,
+  .highlight .nx,
+  .highlight .py,
+  .highlight .w,
+  .highlight .sd,
+  .highlight .sh {
+    color: $dark-text-color;
+  }
+
+  .highlight .c,
+  .highlight .cm,
+  .highlight .c1,
+  .highlight .sb {
+    color: #8b949e;
+  }
+
+  .highlight .k,
+  .highlight .o,
+  .highlight .cp,
+  .highlight .cs,
+  .highlight .gi,
+  .highlight .kn,
+  .highlight .kp,
+  .highlight .ow {
+    color: #ff7b72;
+  }
+
+  .highlight .kd,
+  .highlight .kr,
+  .highlight .nc,
+  .highlight .nd,
+  .highlight .nf,
+  .highlight .nt,
+  .highlight .nv,
+  .highlight .bp,
+  .highlight .vc,
+  .highlight .vg,
+  .highlight .vi {
+    color: #d2a8ff;
+  }
+
+  .highlight .m,
+  .highlight .mf,
+  .highlight .mh,
+  .highlight .mi,
+  .highlight .mo,
+  .highlight .il {
+    color: #79c0ff;
+  }
+
+  .highlight .s,
+  .highlight .sc,
+  .highlight .s2,
+  .highlight .si,
+  .highlight .sx,
+  .highlight .s1,
+  .highlight .ss {
+    color: #a5d6ff;
+  }
+
+  .highlight .x,
+  .highlight .gh,
+  .highlight .gu,
+  .highlight .kc,
+  .highlight .no,
+  .highlight .ni,
+  .highlight .ne,
+  .highlight .se {
+    color: #ffa657;
+  }
+
+  .highlight .gr,
+  .highlight .kt,
+  .highlight .sr {
+    color: #ff7b72;
+  }
+
+  .highlight .gd {
+    color: #ffa198;
+  }
+
+  .highlight .nb {
+    color: #f2cc60;
+  }
+
+  .greedy-nav,
+  .masthead {
+    background: $dark-background-color;
+  }
+
+  .greedy-nav a {
+    color: $dark-muted-text-color;
+
+    &:hover {
+      color: $dark-text-color;
+    }
+  }
+
+  .greedy-nav .hidden-links,
+  .author__urls,
+  .toc {
+    color: $dark-text-color;
+    background: $dark-surface-color;
+    border-color: $dark-border-color;
+    box-shadow: 0 4px 18px rgba(#000, 0.35);
+  }
+
+  .greedy-nav .hidden-links:before,
+  .author__urls:before {
+    border-color: $dark-border-color transparent;
+  }
+
+  .greedy-nav .hidden-links:after,
+  .author__urls:after {
+    border-color: $dark-surface-color transparent;
+  }
+
+  .greedy-nav .hidden-links li,
+  .toc__menu a {
+    border-color: $dark-border-color;
+  }
+
+  .greedy-nav .hidden-links a:hover,
+  .toc__menu a:hover {
+    color: $dark-text-color;
+    background: $dark-surface-raised-color;
+  }
+
+  .toc,
+  .toc__menu a {
+    color: $dark-muted-text-color;
+  }
+
+  .author__avatar img,
+  .comment__avatar,
+  .page__taxonomy-item,
+  .pagination li a,
+  .pagination--pager {
+    border-color: $dark-border-color;
+  }
+
+  table {
+    border-color: $dark-border-color;
+  }
+
+  thead {
+    background-color: $dark-surface-raised-color;
+    border-color: $dark-border-color;
+  }
+
+  th,
+  td {
+    border-color: $dark-border-color;
+  }
+
+  input,
+  textarea,
+  select {
+    color: $dark-text-color;
+    background-color: $dark-surface-color;
+    border-color: $dark-border-color;
+    box-shadow: none;
+
+    &:hover,
+    &:focus {
+      border-color: $dark-focus-color;
+    }
+  }
+
+  label,
+  form legend {
+    color: $dark-text-color;
+  }
+
+  form legend {
+    border-color: $dark-border-color;
+  }
+
+  .form:before {
+    background-color: rgba($dark-background-color, 0.8);
+  }
+
+  .page__comments-form {
+    background: $dark-surface-color;
+  }
+
+  .btn--inverse {
+    color: $dark-text-color !important;
+    background-color: $dark-surface-color;
+    border-color: $dark-border-color !important;
+  }
+
+  .notice {
+    background-color: $dark-surface-color;
+  }
+
+  .notice--primary {
+    background-color: rgba(#7a8288, 0.18);
+  }
+
+  .notice--info {
+    background-color: rgba(#52adc8, 0.16);
+  }
+
+  .notice--warning {
+    background-color: rgba(#f89406, 0.16);
+  }
+
+  .notice--success {
+    background-color: rgba(#62c462, 0.16);
+  }
+
+  .notice--danger {
+    background-color: rgba(#ee5f5b, 0.16);
+  }
+
+  .notice code,
+  .notice--primary code,
+  .notice--info code,
+  .notice--warning code,
+  .notice--success code,
+  .notice--danger code {
+    background-color: $dark-code-background-color;
+  }
+
+  .page__footer {
+    color: $dark-muted-text-color;
+    background-color: $dark-surface-color;
+    border-color: $dark-border-color;
+  }
+
+  .page__footer .fas,
+  .page__footer .fab,
+  .page__footer .far,
+  .page__footer .fal {
+    color: $dark-muted-text-color;
+  }
+}
+
+html[data-theme="dark"] {
+  @include dark-theme;
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme="light"]) {
+    @include dark-theme;
+  }
+}
+
+/* Keep paper output light, even when the screen preference is dark. */
+@media print {
+  html,
+  html[data-theme="dark"] {
+    color-scheme: light;
+    background-color: #fff;
+
+    body {
+      color: #000;
+      background-color: #fff;
+    }
+
+    a,
+    a:visited {
+      color: #000;
+    }
+
+    p > code,
+    a > code,
+    li > code,
+    figcaption > code,
+    td > code,
+    div.highlighter-rouge,
+    figure.highlight {
+      color: #000;
+      background: #fafafa;
+      border-color: #ddd;
+    }
+  }
+}
